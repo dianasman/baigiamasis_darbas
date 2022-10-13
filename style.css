@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    background: #c3c3c3;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+footer {
+    height: 60px;
+    background: #c3c3c3;
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    gap: 200px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.Footer_nav {
+    font-size: 10px;
+    padding: 20px;
+    color: #545454;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.meniu {
+    list-style: none;
+    margin: 0px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a.meniu_li{
+    font-size: 15px;
+    padding: 20px;
+    color: #545454;
+    text-decoration: none;
+}
+
+a.meniu_li:hover{
+    color: #3f3938d1;
+}
+
+li{
+    display: inline;
+}
+
+.logo {
+    margin: 0;
+    padding: 10px;
+    background-image: url('./pages/logo3.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.contacts{
+    display: flex;
+    margin-left: 350px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    color: #545454;
+    align-items: center;
+}
+.contacts p {
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: #545454;
+}
+
+a:hover{
+    color: #282625d1;
+}
+
+a.links:hover {
+    font-size: 17px;
+    transition: 0,7s;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #545454;
+}
+
+li.page_nav {
+    color: black;
+}
+
+.Navigation {
+    margin-bottom: 50px;
+}
+
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .product_card {
+    margin: 10px;
+    padding: 10px;
+    width: 1000px;
+    display: flex;
+    background: rgb(195,195,195);
+    background: linear-gradient(90deg, rgba(195,195,195,1) 42%, rgba(255,255,255,0) 100%);
+    color: #545454;
+    font-size: 10px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px;
+    }
+  
+  .product_image {
+    width: 150px;
+    height: 200px;
+  }
+
+  .textDivHeading {
+    margin-top: 30px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+  }
+
+  .textDivPrice {
+    font-size: 25px;
+    padding: 20px;
+  }
+
+  .textDivLocation {
+    padding-left: 20px;
+  }
+
+  .ProductBtn {
+    font-size: 15px;
+    margin-left: 400px;
+    border: 1px solid #545454 ;
+    padding: 5px;
+  }
+
+  .ProductBtn:hover {
+    color: black;
+    background-color: #54545427;
+  }

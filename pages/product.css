@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+header {
+    background: #c3c3c3;
+    display: flex;
+    align-items: center;
+   
+}
+
+footer {
+    height: 60px;
+    background: #c3c3c3;
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    gap: 200px;
+}
+
+.Footer_nav {
+    font-size: 10px;
+    padding: 20px;
+    color: #545454;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.meniu {
+    list-style: none;
+    margin: 0px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a.meniu_li{
+    font-size: 15px;
+    padding: 20px;
+    color: #545454;
+    text-decoration: none;
+}
+
+a.meniu_li:hover{
+    color: #201b1b;
+}
+
+li{
+    display: inline;
+}
+
+.logo {
+    margin: 0;
+    padding: 10px;
+    background-image: url('./logo3.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.contacts{
+    display: flex;
+    margin-left: 350px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    color: #545454;
+    align-items: center;
+}
+.contacts p {
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: #545454;
+    
+}
+
+a:hover{
+    color: #1d1b1b;
+}
+
+a.links:hover {
+    font-size: 17px;
+    transition: 0,7s;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #545454;
+}
+  
+.product {
+    margin-top: 50px;
+    display: flex;
+    padding: 20px;
+    gap: 60px;
+    background: rgb(195,195,195);
+    background: linear-gradient(90deg, rgba(195,195,195,1) 42%, rgba(255,255,255,0) 100%);
+}
+  
+.product_image {
+    width: 300px;
+}
+
+.productHeading {
+    padding-bottom: 10px;
+}
+
+.productPrice {
+    font-size: 17px;
+}
+
+.productDescription {
+    padding: 60px 0;
+}
+
+.productLocation {
+   font-size: 10px;
+}
+
+.deleteBtn {
+    height: 30px;
+    width: 90px;
+    margin: 150px;
+    font-family: 'Quicksand', sans-serif;
+    color: #545454;
+    border: 1px solid #545454;
+    padding: 5px;
+}
+
+.deleteBtn:hover {
+    background-color: #1d1b1b1f;
+}
+
+.notification {
+    color: #545454;
+    border: 1px solid #545454;
+    padding: 5px;
+    margin: 10px;
+}
+

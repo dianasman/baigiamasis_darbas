@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a product</title>
+    <link rel="stylesheet" href="form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <div class="logo">
+        </div>
+        <ul class="meniu">
+            <li><a class="meniu_li" href= "/index.html">Knygos</a></li>
+            <li><a class="meniu_li" href= "#">Apie mus</a></li>
+            <li><a class="meniu_li" href= "#">Galerija</a></li>
+            <li><a class="meniu_li" href= "#">Parduotuvė</a></li>
+        </ul>
+        <div class="contacts">
+            <p>Kontaktai:</p>
+            <a class="links" href="#">Ig</a>
+            <a class="links" href="#">Fb</a>
+            <a class="links" href="#">Email</a>
+        </div>
+    </header>
+    <div class="wrapper">
+      <h1>Įkelti savo</h1>
+      <ul>
+        <li><a href="/index.html">Grįžti prie visų knygų</a></li>
+      </ul>
+      <form
+        class="form"
+        action="https://63458eb1745bd0dbd36bb8f1.mockapi.io/products"
+        method="post"
+      >
+        <div class="form-example">
+          <label for="name">Pavadinimas:</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <br />
+
+        <div class="form-example">
+          <label for="price">Kaina:</label>
+          <input type="text" name="price" id="price" />
+        </div>
+        <br />
+        <div class="form-example">
+          <label for="image">Nuotrauka:</label>
+          <input type="url" name="image_url" id="image_url" />
+        </div>
+        <br />
+
+        <div class="form-example">
+          <label for="description">Aprašymas:</label>
+          <input type="text" name="description" id="description" />
+        </div>
+        <br />
+
+        <div class="form-example">
+          <label for="location">Lokacija:</label>
+          <input type="text" name="location" id="location" />
+        </div>
+        <br />
+        <button class="submit_btn" type="submit">Įkelti</button>
+      </form>
+    </div>
+    <footer>
+      <div class="Footer_nav">
+        <ul>
+          <li><a class="footer_li" href= "./index.html">Knygos</a></li>
+          <li>|</li>
+          <li><a class="footer_li" href="#">Apie mus</a></li>
+          <li>|</li>
+          <li><a class="footer_li" href="#">Galerija</a></li>
+          <li>|</li>
+          <li><a class="footer_li" href="#">Parduotuvė</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          COPIRAJTING ©
+        </p>
+      </div>
+      <div class="Footer_contacts">
+        <ul>
+          <li><a class="footer_li" href="#">IG</a></li>
+          <li><a class="footer_li" href="#">FB</a></li>
+          <li><a class="footer_li" href="#">Email</a></li>
+          
+        </ul>
+      </div>
+    </footer>
+    <script src="form.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    padding: 20px;
+    width: 450px;
+    min-height: 200px;
+    height: auto;
+    margin: 10px;
+    padding: 30px;
+    background-image: linear-gradient( #ffffff00, #c3c3c3);
+  }
+
+  .form-example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+  }
+
+.form-example input {
+    margin: 10px;
+    border-radius:15px;
+    border:0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+h1 {
+    color: #2b2929;
+}
+  body{
+    color: #545454;
+    font-family: 'Quicksand', sans-serif;
+}
+header {
+    background: #c3c3c3;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 60px;
+    background: #c3c3c3;
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    gap: 200px;
+}
+
+.Footer_nav {
+    font-size: 10px;
+    padding: 20px;
+    color: #545454;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.meniu {
+    list-style: none;
+    margin: 0px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a.meniu_li{
+    font-size: 15px;
+    padding: 20px;
+    color: #545454;
+    text-decoration: none;
+}
+
+a.meniu_li:hover{
+    color: #262626;
+}
+
+li{
+    display: inline;
+}
+
+.logo {
+    margin: 0;
+    padding: 10px;
+    background-image: url('./logo3.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.contacts{
+    display: flex;
+    margin-left: 350px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+    color: #545454;
+    align-items: center;
+}
+
+.contacts p {
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: #545454;
+}
+
+a:hover{
+    color: #242121;
+}
+
+a.links:hover {
+    font-size: 17px;
+    transition: 0,7s;
+}
+
+.notification {
+    color: #545454;
+    border: 1px solid #545454;
+    padding: 5px;
+    margin: 5px;
+}
+
+.submit_btn {
+    color: #545454;
+    border: 1px solid #545454;
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.submit_btn:hover {
+    background-color: #2b29291e;
+}
